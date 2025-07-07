@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases Épicas - Ivan Cambron</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(81, 203, 238, 0.6);
+            border: 2px solid #51cbee;
+            animation: glow 3s infinite alternate;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #51cbee;
+            text-shadow: 0 0 10px rgba(81, 203, 238, 0.8);
+        }
+        
+        .frase {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            border-left: 3px solid #51cbee;
+            background: rgba(81, 203, 238, 0.1);
+            border-radius: 0 8px 8px 0;
+            transition: transform 0.3s;
+        }
+        
+        .frase:hover {
+            transform: scale(1.02);
+            background: rgba(81, 203, 238, 0.2);
+        }
+        
+        .autor {
+            font-style: italic;
+            color: #e94560;
+            margin-top: 3rem;
+            font-size: 1.2rem;
+        }
+        
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 15px rgba(81, 203, 238, 0.6);
+            }
+            to {
+                box-shadow: 0 0 30px rgba(81, 203, 238, 0.9);
+            }
+        }
+        
+        .estrella {
+            color: gold;
+            font-size: 1.2rem;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FRASES ÉPICAS</h1>
+        
+        <div class="frase">
+            "El éxito no es definitivo, el fracaso no es fatídico: lo que cuenta es el valor para continuar."
+        </div>
+        
+        <div class="frase">
+            "La vida no se trata de esperar a que pase la tormenta, sino de aprender a bailar bajo la lluvia."
+        </div>
+        
+        <div class="frase">
+            "Tus sueños no tienen fecha de caducidad. Respira hondo y vuelve a intentarlo."
+        </div>
+        
+        <div class="frase">
+            "Las estrellas más brillantes se forman en la oscuridad más profunda."
+        </div>
+        
+        <div class="frase">
+            "No midas tu riqueza por el dinero que tienes, mídela por aquellas cosas que no cambiarías por dinero."
+        </div>
+        
+        <div class="frase">
+            "El verdadero heroísmo consiste en transformar los miedos en alas y las dudas en fuerza."
+        </div>
+        
+        <div class="autor">
+            <span class="estrella">★</span> Ivan Cambron <span class="estrella">★</span>
+        </div>
+    </div>
+</body>
+</html>
